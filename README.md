@@ -43,4 +43,4 @@ checkrestart [options]
 
 ## Stuff to Know
 
-* I forgot to put stuff on GitHub early on, thats why the older (1.0, 1.1, 1.11) aren't here, sorry about that!
+* I forgot to put stuff on GitHub early on, thats why the older versions (1.0, 1.1, 1.11) aren't here, sorry about that!
