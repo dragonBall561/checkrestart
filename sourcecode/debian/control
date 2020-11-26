@@ -1,0 +1,11 @@
+Source: checkrestart
+Section: utils
+Priority: optional
+Maintainer: Angad Tendulkar <angad.tendulkar@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+
+Package: checkrestart
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tells you if you need a restart after upgrading packages.

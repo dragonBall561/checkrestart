@@ -1,0 +1,25 @@
+checkrestart (1.2ubuntu20.04) focal; urgency=medium
+
+  * Bugfixes
+  * Edited --help option
+
+ -- Angad Tendulkar <angad.tendulkar@gmail.com>  Tue, 24 Nov 2020 14:37:14 -0500
+
+checkrestart (1.11ubuntu20.04) focal; urgency=medium
+
+  * Fixed: No install file under debian/
+
+ -- Angad Tendulkar <angad.tendulkar@gmail.com>  Mon, 23 Nov 2020 14:42:39 -0500
+
+checkrestart (1.1ubuntu20.04) focal; urgency=medium
+	
+  * Added More Options
+  * Updated README's
+
+ -- Angad Tendulkar <angad.tendulkar@gmail.com>  Thu, 19 Nov 2020 16:01:46 -0500
+
+checkrestart (1.0ubuntu18.04) bionic; urgency=medium
+
+  * Initial Release.
+
+ -- Angad Tendulkar <angad.tendulkar@gmail.com>  Thu, 19 Nov 2020 16:01:46 -0500

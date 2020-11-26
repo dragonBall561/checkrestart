@@ -1,0 +1,21 @@
+checkrestart for Debian
+----------------------
+
+	Build Instructions (For Compiled C Binary)
+		* Clone/Download My Repo
+		* In the Root of my Repository, go to `source-files/`
+		* Open in Terminal
+		* Install shc `sudo apt install shc`
+		* Run: `shc -f checkrestart.sh`
+		* This will get you a .c and a compiled c binary
+		* Put the Compiled C in a directory within your PATH (e.g. /usr/bin)
+
+	Build Instructions (For .deb)
+		* Clone/Download my Repo
+		* Go into the Root of my Repo
+		* Open in Terminal
+		* Run `dpkg-deb --build ./sourcecode`
+		* After Building has Finished, You Should see a .deb file in the current directory
+
+ -- Angad Tendulkar <angad.tendulkar@gmail.com>  Thu, 19 Nov 2020 16:01:46 -0500
+

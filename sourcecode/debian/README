@@ -1,0 +1,25 @@
+The Debian Package checkrestart
+----------------------------
+
+	About:
+		* This Package will tell you if you need a restart after installing/updating some packages.
+		* Status: Working
+
+	Installation:
+		* Add The checkrestart repository `sudo add-apt-repository ppa:dragonball8650/checkrestart`
+		* Run `sudo apt update`
+		* Run `sudo apt install checkrestart`
+
+	Usage:
+		`checkrestart [options]`
+			* -h, --help
+					Show a Help Page
+			* -l, --list
+					List the packages that need a restart
+			* -v, --version
+					Show Version Info
+
+	Building:
+		Instructions for Building is Located at `README.source`
+
+ -- Angad Tendulkar <angad.tendulkar@gmail.com>  Thu, 19 Nov 2020 16:01:46 -0500
