@@ -18,7 +18,7 @@ checkrestart (1.1ubuntu20.04) focal; urgency=medium
 
  -- Angad Tendulkar <angad.tendulkar@gmail.com>  Thu, 19 Nov 2020 16:01:46 -0500
 
-checkrestart (1.0ubuntu18.04) bionic; urgency=medium
+checkrestart (1.0ubuntu20.04) focal; urgency=medium
 
   * Initial Release.
 
