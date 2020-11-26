@@ -25,23 +25,21 @@ checkrestart [options]
 
 ## Building
 
-### Build Instructions (to .deb file)
-1. Download The Source Code (.zip or .tar.gz)
-1. Unzip the source code. Into ~/checkrestart
-	* Make sure the 'debian' folder is in `~/checkrestart/sourcecode`
-1. Open the Terminal and `cd` into `~/checkrestart/sourcecode`
-1. Run `debuild -b ./checkrestart`
-1. Wait until the deb file is done building
-1. `cd` into the previous directory: `cd ..`
-1. There should now be multiple files in the directory, including the .deb file you want to install.
+### Build Instructions (For Compiled C Binary)
+	* Clone/Download My Repo
+	* In the Root of my Repository, go to `source-files/`
+	* Open in Terminal
+	* Install shc `sudo apt install shc`
+	* Run: `shc -f checkrestart.sh`
+	* This will get you a .c and a compiled c binary
+	* Put the Compiled C in a directory within your PATH (e.g. /usr/bin)
 
-### Build Instructions (for uploading to Launchpad)
-1. NOTE: If you upload this package to launchpad or any other repository make sure I get the apropriate credit 
-1. Download and unzip the source code to ~/checkrestart
-	* Make sure the 'debian' folder is in `~/checkrestart/checkrestart`
-1. Open the Terminal and `cd` into ~/checkrestart/checkrestart
-1. Run `debuild -S`
-1. Make sure the build is successful before continuing.
-1. Run `cd ..`
-1. Run `dput ppa:your_launchpad_username/your_ppa_title <your_source.changes>`
-1. Wait for the packages to be built in launchpad.
+### Build Instructions (For .deb)
+	* Clone/Download my Repo
+	* Go into the Root of my Repo
+	* Open in Terminal
+	* Run `dpkg-deb --build ./sourcecode`
+	* After Building has Finished, You Should see a .deb file in the current directory
+
+## Stuff to Know
+* I forgot to put stuff on GitHub early on, thats why the older (1.0, 1.1, 1.11) aren't here, sorry about that!
